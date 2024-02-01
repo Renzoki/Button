@@ -14,5 +14,5 @@ function randomPosition(){
   button.style.top = randomTop + 'px';
 }
 
-button.addEventListener('click', randomPosition);
+button.addEventListener('mouseover', randomPosition);
 });
